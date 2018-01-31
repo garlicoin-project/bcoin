@@ -9,10 +9,10 @@ const node = new FullNode({
   dbhost: 'localhost',
   checkpoints: true,
   workers: true,
-  logLevel: 'debug',
+  logLevel: 'info',
   'max-inbound': 8,
-  'max-outbound': 8,
-  'http-port': 8332
+  'max-outbound': 32,
+  'http-port': 42068
 });
 
 (async () => {
