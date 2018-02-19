@@ -14,7 +14,8 @@ function createGenesisBlock(options) {
 
   if (!flags) {
     flags = Buffer.from(
-      'If this post gets 30000 upvotes I will make a garlic bread cryptocurrency called garlicoin',
+      'If this post gets 30000 upvotes I will make a garlic '
+      + 'bread cryptocurrency called garlicoin',
       'ascii');
   }
 
