@@ -27,7 +27,7 @@ const node = new FullNode({
   env: true,
   logFile: true,
   logConsole: true,
-  logLevel: 'info',
+  logLevel: 'debug',
   db: 'leveldb',
   persistent: true,
   workers: true,

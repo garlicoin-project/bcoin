@@ -5,12 +5,12 @@ const FullNode = bcoin.fullnode;
 
 const node = new FullNode({
   network: 'main',
-  dbname: 'bcoin-main',
+  dbname: 'gcoin',
   dbhost: 'localhost',
   checkpoints: true,
   workers: true,
   logLevel: 'info',
-  'max-inbound': 8,
+  'max-inbound': 32,
   'max-outbound': 32,
   'http-port': 42068
 });

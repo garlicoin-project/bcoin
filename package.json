@@ -24,13 +24,12 @@
     "node": ">=7.6.0"
   },
   "dependencies": {
-    "bcoin-mongo-models": "https://github.com/bitpay/bcoin-mongo-models",
+    "gcoin-mongo-models": "https://github.com/garlicoin-project/gcoin-mongo-models",
     "bn.js": "4.11.8",
     "elliptic": "6.4.0",
     "mongoose": "^4.11.9",
     "n64": "0.0.18",
-    "scrypt": "^6.0.3",
-    "scryptsy": "^2.0.0"
+    "garlicoinhash": "https://github.com/garlicoin-project/garlicoinhash"
   },
   "optionalDependencies": {
     "bcoin-native": "0.0.23",

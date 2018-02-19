@@ -14,15 +14,15 @@ function createGenesisBlock(options) {
 
   if (!flags) {
     flags = Buffer.from(
-      'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks',
+      'If this post gets 30000 upvotes I will make a garlic bread cryptocurrency called garlicoin',
       'ascii');
   }
 
   if (!key) {
     key = Buffer.from(''
-      + '04678afdb0fe5548271967f1a67130b7105cd6a828e039'
-      + '09a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c3'
-      + '84df7ba0b8d578a4c702b6bf11d5f', 'hex');
+      + '696984710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc'
+      + '4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf'
+      + '21b179c45070ac7b03a9', 'hex');
   }
 
   if (!reward)
